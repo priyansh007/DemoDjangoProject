@@ -29,8 +29,6 @@ SECRET_KEY = os.environ.get("django_secret_key")
 DEBUG = True if os.environ.get("DEBUG") else False
 ALLOWED_HOSTS = ["*"]
 
-ALLOWED_HOSTS = []
-
 CORS_ORIGIN_ALLOW_ALL = False
 
 CORS_ORIGIN_WHITELIST = [
