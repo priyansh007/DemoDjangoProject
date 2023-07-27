@@ -9,7 +9,7 @@ ARG PGPORT
 ARG PGUSER
 
 WORKDIR /demoProject
-
+ENV PYTHONBUFFERED=1
 COPY . .
 
 RUN pip install --upgrade pip 
