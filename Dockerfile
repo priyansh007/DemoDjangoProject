@@ -2,8 +2,13 @@ FROM python:3.8.13-bullseye
 
 ARG secret_key
 ARG api_key
+ARG PGDATABASE
+ARG PGHOST
+ARG PGPASSWORD
+ARG PGPORT
+ARG PGUSER
 
-WORKDIR /my_project
+WORKDIR /demoProject
 
 COPY . .
 
