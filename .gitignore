@@ -137,4 +137,4 @@ GitHub.sublime-settings
 
 # OSX
 .DS_Store
-myLib/
+**/myLib/
