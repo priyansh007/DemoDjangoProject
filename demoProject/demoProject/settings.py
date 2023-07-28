@@ -104,11 +104,7 @@ else:
 
 
 # Password validation
-'''ARG PGDATABASE
-ARG PGHOST
-ARG PGPASSWORD
-ARG PGPORT
-ARG PGUSER'''
+
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
