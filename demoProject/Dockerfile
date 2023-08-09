@@ -1,12 +1,13 @@
 FROM python:3.8.13-bullseye
 
-ARG django_secret_key
-ARG openai_api_key
+
 ARG PGDATABASE
 ARG PGHOST
 ARG PGPASSWORD
 ARG PGPORT
 ARG PGUSER
+ARG django_secret_key
+ARG openai_api_key
 
 ENV PYTHONBUFFERED=1
 WORKDIR /demoProject
